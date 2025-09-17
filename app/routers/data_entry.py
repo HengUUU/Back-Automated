@@ -8,6 +8,7 @@ from app.services.token_service import check_valid_token
 from datetime import date
 from token_store import get_token, set_token
 import asyncio
+from app.services.WCI import compute_wci 
 
 
 # Create a global lock
@@ -83,12 +84,15 @@ async def get_reports():
                     avg_param = calculate_average_metrics(fc_dt)
 
                 station_ = get_factory_infor(i['deviceId'], station_data)
+                
+                score_wci = compute_wci(avg_param)
 
                 single_factory_rp = {
                     "avg_parame": avg_param,
                     "date": today_str,
                     "device_ids": i['deviceId'],
                     "station_info": station_,
+                    "WCI": score_wci
                 }
                 all_reports.append(single_factory_rp)
                 print(num)

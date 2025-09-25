@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import Optional
 
 class Factory(BaseModel):
-    Id: str           # <-- change from int to str
+    Id: str | None = None           # <-- change from int to str
     name: str
     address: str | None = None
     district: str | None = None

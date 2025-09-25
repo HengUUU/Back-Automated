@@ -30,8 +30,8 @@
     "Id": "E4:65:B8:2A:5B:FC",
     "name": "KHMER BEVERAGES",
     "address": "Street 217, Phum Cheung Ek, Sangkat Cheung Ek, Khan Dangkor, Phnom Penh, Cambodia 12415, KH.",
-    "district": "Chamkarmon",
-    "location": "ខណ្ឌដង្កោ រាជធានីភ្នំពេញ",
+    "district": "toul songkea",
+    "location": "pp",
     "business": "បោកគក់ជ្រលក់ពណ៌",
     "mapLatLong": "11.491519868749261, 104.89652475747641"
   },
@@ -399,5 +399,41 @@
     "location": null,
     "business": null,
     "mapLatLong": null
+  },
+  {
+    "Id": "dafdasd",
+    "name": "GLOBAL XILING GARMENT",
+    "address": null,
+    "district": null,
+    "location": "ខណ្ឌកំបូល រាជធានីភ្នំពេញ",
+    "business": "ថាមពល",
+    "mapLatLong": null
+  },
+  {
+    "Id": "afdfsas",
+    "name": "kimsan",
+    "address": "asfdads",
+    "district": "",
+    "location": "",
+    "business": "drug dealer",
+    "mapLatLong": ""
+  },
+  {
+    "Id": null,
+    "name": "Vanak Lonely",
+    "address": null,
+    "district": null,
+    "location": "ផ្សារព្រែកសណ្តែក",
+    "business": "បោកគក់ជ្រលក់ពណ៌",
+    "mapLatLong": "445,445"
+  },
+  {
+    "Id": null,
+    "name": "San",
+    "address": null,
+    "district": null,
+    "location": null,
+    "business": "drug dealer",
+    "mapLatLong": "123,323"
   }
 ]

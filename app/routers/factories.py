@@ -25,7 +25,7 @@ def create_factory(factory: Factory):
 
 
 @router_factories.put("/", response_model=Factory)
-def modify_factory(name: str = Query(..., description="Factory name to update"), factory: Factory = None):
+def modify_factory(name: str = Query(..., description="Factory name to update"), factory: FactoryUpdate = None):
     try:
         return update_factory_by_name(name, factory)
     except ValueError as e:

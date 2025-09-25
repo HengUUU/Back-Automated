@@ -24,8 +24,9 @@ api.add_middleware(
 
 
 from app.routers.data_entry import router
+from app.routers.factories import router_factories
 api.include_router(router)
-
+api.include_router(router_factories)
 
 
 @api.get('/')

@@ -1,0 +1,403 @@
+[
+  {
+    "Id": "E4:65:B8:2A:56:28",
+    "name": "Phoenix Industrial Co., Ltd.",
+    "address": "PCHEAV VILLAGE, TRENG COMMUNE, RATANAK MONDUL DISTRICT, BATTAMBANG PROVINCE.",
+    "district": "Battambang",
+    "location": "ស្រុករតនះមណ្ឌល ខេត្តបាត់ដំបង",
+    "business": "ផលិតសាធាតុគីមី",
+    "mapLatLong": "12.809983772607785, 102.90954097115913"
+  },
+  {
+    "Id": "E4:65:B8:29:58:04",
+    "name": "Top Sport Textile Co., Ltd.",
+    "address": "Manhattan Special Economic Zone, National raod#01, Sangkat Bavet, Krong Bavet, Svay Rieng province, Cambodia.",
+    "district": "Svay Rieng",
+    "location": "ស្រុកបាវិត ខេត្តស្វាយរៀង",
+    "business": "បោកគក់ជ្រលក់ពណ៌",
+    "mapLatLong": "11.048106428149069, 106.12046238783184"
+  },
+  {
+    "Id": "E4:65:B8:2B:0B:8C",
+    "name": "Hi Blue Washing Process Co., Ltd.",
+    "address": "KH Dongkor District National Road 3, Touek Thea Village Tram Pung",
+    "district": "kandal stoeng",
+    "location": "ខណ្ឌដង្កោ រាជធានីភ្នំពេញ",
+    "business": "បោកគក់ជ្រលក់ពណ៌",
+    "mapLatLong": "11.444324076169904, 104.80117658321743"
+  },
+  {
+    "Id": "E4:65:B8:2A:5B:FC",
+    "name": "KHMER BEVERAGES",
+    "address": "Street 217, Phum Cheung Ek, Sangkat Cheung Ek, Khan Dangkor, Phnom Penh, Cambodia 12415, KH.",
+    "district": "Chamkarmon",
+    "location": "ខណ្ឌដង្កោ រាជធានីភ្នំពេញ",
+    "business": "បោកគក់ជ្រលក់ពណ៌",
+    "mapLatLong": "11.491519868749261, 104.89652475747641"
+  },
+  {
+    "Id": "E4:65:B8:29:DB:D8",
+    "name": "MengYan Garment Manufactory & Wet Processing Ltd.",
+    "address": "Street 21A, Phum 3, Sangkat Svay Rolum, Takhmao City, Kandal Province, Cambodia.",
+    "district": "Takhmao",
+    "location": "ក្រុងតាខ្មៅ ខេត្តកណ្តាល",
+    "business": "បោកគក់",
+    "mapLatLong": "11.452624660868496, 104.98808905767258"
+  },
+  {
+    "Id": "AC:15:18:ED:F7:20",
+    "name": "GIGA (Svay Rieng) Special Economic Zone",
+    "address": "តំបន់សេដ្ឋកិច្ចពិសេស ស្វាយរៀង ហ្គីហ្គា រីសស៍  ភូមិ ដើមពោធិ៍​  ឃុំ កណ្តៀងរាយ ស្រុក ស្វាយទាប ខេត្ត ស្វាយរៀង។",
+    "district": "Svay Rieng",
+    "location": "ស្រុកស្វាយទាប ខេត្តស្វាយរៀង",
+    "business": "តំបន់សេដ្ឋកិច្ចពិសេស",
+    "mapLatLong": "11.040848388469817, 105.9544979866991"
+  },
+  {
+    "Id": "8C:BF:EA:09:E4:2C",
+    "name": "Super Link Fashions (Cambodia) Co., Ltd.",
+    "address": "Khum Ta Ches, Road No.5",
+    "district": "Kampong Tralach",
+    "location": "ស្រុកកំពង់ត្រឡាច ខេត្តកំពង់ឆ្នាំង",
+    "business": "កាត់ដេរ​ បោកគក់",
+    "mapLatLong": "12.033800429029457, 104.72924418287397"
+  },
+  {
+    "Id": "AC:15:18:EE:5A:24",
+    "name": "J.C.W Washing Co., Ltd.",
+    "address": null,
+    "district": "Takhmao",
+    "location": "ក្រុងតាខ្មៅ ខេត្តកណ្តាល",
+    "business": "បោកគក់",
+    "mapLatLong": "11.424094438146065, 105.04624173021102"
+  },
+  {
+    "Id": "AC:15:18:EF:EC:20",
+    "name": "Tak Sun Enterprise (Cambodia) Co., Ltd.",
+    "address": null,
+    "district": "Dangko",
+    "location": "ខណ្ឌដង្កោ រាជធានីភ្នំពេញ",
+    "business": "ប្រព្រិត្តកម្មសំណល់រាវ",
+    "mapLatLong": "11.4482873, 104.7967669"
+  },
+  {
+    "Id": "AC:15:18:EE:0C:B0",
+    "name": "Yi Da Manufacturer Co., Ltd.",
+    "address": "Phum Ruessei Srok, Khum Chheu Teal, Srok Kien Svay, Kandal Province, Cambodia.​",
+    "district": "Kien Svay",
+    "location": "ស្រុកកៀនស្វាយ ខេត្តកណ្តាល",
+    "business": "បោកគក់",
+    "mapLatLong": "11.470395302631568, 105.01993534933357"
+  },
+  {
+    "Id": "AC:15:18:ED:FB:B0",
+    "name": "Yee Woo (Cambodia) Garment Ltd.",
+    "address": null,
+    "district": "Chbar Ampov",
+    "location": "ខណ្ឌច្បារអំពៅ រាជធានីភ្នំពេញ",
+    "business": "បោកគក់",
+    "mapLatLong": "11.504090015583762, 104.94736757943585"
+  },
+  {
+    "Id": "E4:65:B8:29:D5:E0",
+    "name": "YeeTak Lee (Cambodia) Garment Washing Co., Ltd.",
+    "address": null,
+    "district": "Takhmao",
+    "location": "ក្រុងតាខ្មៅ ខេត្តកណ្តាល",
+    "business": "បោកគក់",
+    "mapLatLong": "11.389457035951743, 105.00148464289475"
+  },
+  {
+    "Id": "AC:15:18:EF:64:D4",
+    "name": "Sandong Sunshell International (Cambodia) Co., Ltd",
+    "address": "(SHANDONG SEZ) NR #1, Chrey Thom Village, Prey Angkunh Communce, Bavet City, Svay Rieng Province",
+    "district": "Bavet",
+    "location": "ក្រុងបាវិត ខេត្តស្វាយរៀង",
+    "business": "សួនឧស្សាហកម្ម",
+    "mapLatLong": "11.039793981977704, 105.99512605885333"
+  },
+  {
+    "Id": "C8:2E:18:91:CF:A0",
+    "name": "Chin Huay (Cambodia) Co., Ltd.",
+    "address": null,
+    "district": "Sihanoukville",
+    "location": "ក្រុងព្រះសីហនុ ខេត្តព្រះសីហនុ",
+    "business": "ដំណាប់ស្វាយ",
+    "mapLatLong": "10.581932913282886, 103.689957606759"
+  },
+  {
+    "Id": "8C:BF:EA:0A:68:68",
+    "name": "Jin Lu Yuan Energy Environment Industrial, Ltd.",
+    "address": "km27,preah nipean,kong pisei,kom pong speu.",
+    "district": "Kong Pisey",
+    "location": "ស្រុកគងពិសី ខេត្តកំពង់ស្ពឺ",
+    "business": "បោកគក់",
+    "mapLatLong": "N/A"
+  },
+  {
+    "Id": "8C:BF:EA:0A:67:9C",
+    "name": "Cambrew Ltd.",
+    "address": null,
+    "district": "Sihanoukville",
+    "location": "ក្រុងព្រះសីហនុ ខេត្តព្រះសីហនុ",
+    "business": "ផលិតស្រាបៀរ​ ទឹកបរិសុទ្ធ​ និងភេសជ្ជៈ",
+    "mapLatLong": "10.633837175869186, 103.5346430538174"
+  },
+  {
+    "Id": "8C:BF:EA:0A:6C:C8",
+    "name": "Cambodian Gome Farm Food Co., Ltd. (01)",
+    "address": null,
+    "district": "Kong Pisey",
+    "location": "ស្រុកគងពិសី ខេត្តកំពង់ស្ពឺ",
+    "business": "ដំណាប់ស្វាយ",
+    "mapLatLong": "11.486335484805624, 104.57903832704068"
+  },
+  {
+    "Id": "8C:BF:EA:0A:68:28",
+    "name": "Sing Song Industrial (Cambodia) Co., Ltd.",
+    "address": "Road No.7, Orussey2 Village, Orussey Commune, Kratie City, Kratie Province",
+    "district": "Kratie",
+    "location": "ក្រុងក្រចេះ ខេត្តក្រចេះ",
+    "business": "កែច្នៃដំឡូងមី",
+    "mapLatLong": "12.514816996576396, 106.069573006931"
+  },
+  {
+    "Id": "8C:BF:EA:09:E3:E0",
+    "name": "Sheng Xing Zhong Guo Phnom Penh Packing Co., Ltd.",
+    "address": "phum prey torteng, khum tropeang veng, srok kandal steung, kandal province",
+    "district": "kandal stoeng",
+    "location": "ស្រុកកណ្តាលស្ទឹង ខេត្តកណ្តាល",
+    "business": "ផលិតសំបកកំប៉ុង",
+    "mapLatLong": "11.403006697171937, 104.78756397158664"
+  },
+  {
+    "Id": "8C:BF:EA:09:E4:10",
+    "name": "Califor Upholstery Materials Co., Ltd.",
+    "address": null,
+    "district": "Svay Rieng",
+    "location": "ស្រុកចន្ទ្រា ខេត្តស្វាយរៀង",
+    "business": "កែច្នៃនិងច្រលក់ពណ៌ស្បែក",
+    "mapLatLong": "11.030711494395357, 106.04592711402807"
+  },
+  {
+    "Id": "8C:BF:EA:09:E4:64",
+    "name": "Gold Fame Star Enterprise (Cambodia) Limited",
+    "address": null,
+    "district": "Kien Svay",
+    "location": "ក្រុងតាខ្មៅ ខេត្តកណ្តាល",
+    "business": "បោកគក់",
+    "mapLatLong": "11.433999884914952, 105.04208458552792"
+  },
+  {
+    "Id": "8C:BF:EA:09:E3:D8",
+    "name": "Nagapeace Corporation Limited",
+    "address": null,
+    "district": "leukdek",
+    "location": "ឃុំសំរោងធំ ស្រុកលើកដែក​ ខេត្តកណ្តាល",
+    "business": "បោកគក់",
+    "mapLatLong": "11.399808435494352, 105.2354033117111"
+  },
+  {
+    "Id": "8C:BF:EA:09:E4:50",
+    "name": "Sihanouk Ville Special Economic Zone",
+    "address": null,
+    "district": "Sihanoukville",
+    "location": "ក្រុងព្រះសីហនុ ខេត្តព្រះសីហនុ",
+    "business": "តំបន់សេដ្ឋកិច្ចពិសេស",
+    "mapLatLong": "10.610024233983403, 103.62834440800783"
+  },
+  {
+    "Id": "94:A9:90:07:8D:7C",
+    "name": "Trimax Global",
+    "address": null,
+    "district": "Chbar Morn",
+    "location": "ក្រុងច្បារមន ខេត្តកំពង់ស្ពឺ",
+    "business": "បោកគក់",
+    "mapLatLong": "12.556864,104.886613"
+  },
+  {
+    "Id": "12",
+    "name": "RMKH Glove (Cambodia) Co., Ltd.",
+    "address": null,
+    "district": "Preak Sandek",
+    "location": "ស្រុកបាវិត ខេត្តស្វាយរៀង",
+    "business": "ផលិតស្រោមដៃ",
+    "mapLatLong": "11.050091067553563, 106.1272484997783"
+  },
+  {
+    "Id": "94:A9:90:07:8D:78",
+    "name": "Kirirom Food Production (K.F.P) Co., Ltd.",
+    "address": null,
+    "district": "Kong Pisey",
+    "location": "ស្រុកភ្នំស្រួច ខេត្តកំពង់ស្ពឺ",
+    "business": "ដំណាប់ស្វាយ",
+    "mapLatLong": "N/A"
+  },
+  {
+    "Id": "94:A9:90:07:8D:50",
+    "name": "Zheng Yong Garment Factory Co., Ltd.",
+    "address": null,
+    "district": "Russey Keo",
+    "location": "ខណ្ឌឬស្សីកែវ រាជធានីភ្នំពេញ",
+    "business": "ផលិតខោអាវ",
+    "mapLatLong": "11.594567103648902, 104.91782524231844"
+  },
+  {
+    "Id": "94:A9:90:07:8D:A8",
+    "name": "Zhejiang Special Economic Zone",
+    "address": null,
+    "district": "Prey Nob",
+    "location": "ស្រុកព្រៃនប់ ខេត្តព្រះសីហនុ",
+    "business": "តំបន់សេដ្ឋកិច្ចពិសេស",
+    "mapLatLong": "10.75669254227464, 103.80460997650184"
+  },
+  {
+    "Id": "94:A9:90:07:8D:80",
+    "name": "Tainan Enterprises (Cambodia) Co., Ltd.",
+    "address": null,
+    "district": "Ang Snoul",
+    "location": "ស្រុកអង្គស្នួល​ ខេត្តកណ្តាល",
+    "business": "បោកគក់",
+    "mapLatLong": "11.508157832666594, 104.74979957425776"
+  },
+  {
+    "Id": "94:A9:90:07:8D:C8",
+    "name": "Baosteel Can Making (Cambodia) Co., Ltd.",
+    "address": null,
+    "district": "Samrong Tong",
+    "location": "ស្រុកសំរោងទង ខេត្តកំពង់ស្ពឺ",
+    "business": "ផលិតសំបកកំប៉ុង",
+    "mapLatLong": "11.556477511345806, 104.65173354231536"
+  },
+  {
+    "Id": "8C:BF:EA:09:E3:D0",
+    "name": "Cambodian Gome Farm Food Co., Ltd. (02)",
+    "address": null,
+    "location": "ស្រុកសំរោងទង ខេត្តកំពង់ស្ពឺ",
+    "business": "ដំណាប់ស្វាយ",
+    "mapLatLong": "11.478796729720228, 104.58108543455126"
+  },
+  {
+    "Id": "94:A9:90:07:8D:88",
+    "name": "Heineken (Cambodia) Co., Ltd.",
+    "address": "Phoum Robos Angkagne, Sangkat Prek Eng, Khan Chabar Ampov, Phnom Penh, PO Box: 1108",
+    "district": "Chbar Ampov",
+    "location": "ខណ្ឌច្បារអំពៅ រាជធានីភ្នំពេញ",
+    "business": "ផលិតស្រាបៀរ",
+    "mapLatLong": "11.504545172258567, 104.99410036972505"
+  },
+  {
+    "Id": "44:1D:64:E3:ED:00",
+    "name": "Zhongbao (Cambodia) Food Science & Technology Co., Ltd.",
+    "address": null,
+    "district": "Phnom Sruoch",
+    "location": "ស្រុកភ្នំស្រួច ខេត្តកំពង់ស្ពឺ",
+    "business": "ដំណាប់ស្វាយ",
+    "mapLatLong": "11.178675912375615, 104.13777450651229"
+  },
+  {
+    "Id": "28:2D:06:0A:63:54",
+    "name": "Guowang State (Cambodia) Food Co., Ltd.",
+    "address": null,
+    "district": "Kampong Seila",
+    "location": "ស្រុកកំពង់សីលា ខេត្តព្រះសីហនុ",
+    "business": "ដំណាប់ស្វាយ",
+    "mapLatLong": "N/A"
+  },
+  {
+    "Id": "28:2D:06:0E:A2:76",
+    "name": "KICYN (CAMBODIA) CO., LTD.",
+    "address": null,
+    "district": "kandal stoeng",
+    "location": "ស្រុកបាទី ខេត្តតាកែវ",
+    "business": "កាត់ដេរ​ បោកគក់",
+    "mapLatLong": "11.248779258200871, 104.78848984521221"
+  },
+  {
+    "Id": "94:A9:90:1E: 55:08",
+    "name": "Ganzberg beer-RusseyKeo",
+    "address": null,
+    "district": null,
+    "business": null,
+    "mapLatLong": "11.619351139156896, 104.90823794767391"
+  },
+  {
+    "Id": "94:A9:90:1E:55:08",
+    "name": "Ganzberg Beer",
+    "address": null,
+    "district": null,
+    "location": "ខណ្ឌឬស្សីកែវ រាជធានីភ្នំពេញ",
+    "business": "ផលិតស្រាបៀរ",
+    "mapLatLong": "11.619476137857346, 104.90823430267059"
+  },
+  {
+    "Id": "94:A9:90:1E:55:08",
+    "name": "Ganzberg beer-RusseyKeo",
+    "address": "JWC4+CRR, Beer Ganzberg Phnom Penh, Cambodia Phnom Penh, Phnom Penh 12100",
+    "district": "Russey Keo",
+    "business": null,
+    "mapLatLong": "11.619371047406691, 104.90829867493235"
+  },
+  {
+    "Id": "28:2D:06:0E:34:5C",
+    "name": "Win Ta Garment & Finishing Co., Ltd.",
+    "address": null,
+    "district": "Ang Snoul",
+    "location": "ស្រុកអង្គស្នួល​ ខេត្តកណ្តាល",
+    "business": "បោកគក់",
+    "mapLatLong": "11.460242634808884, 104.71774990184471"
+  },
+  {
+    "Id": "28:2D:06:0E:A3:62",
+    "name": "Ocean Apparel Manufacturing Co., Ltd.",
+    "address": null,
+    "district": "kambol",
+    "location": "ខណ្ឌកំបូល​ រាជធានីភ្នំពេញ",
+    "business": "កាត់ដេរ​ បោកគក់",
+    "mapLatLong": "11.532074145146868, 104.79431780528317"
+  },
+  {
+    "Id": "28:2D:06:0E:39:92",
+    "name": "Winsand Garment & Woolen Knitting Factory Co., Ltd.",
+    "address": null,
+    "district": "leukdek",
+    "location": "ស្រុកលើកដែក ខេត្តកណ្តាល",
+    "business": "កាត់ដេរ​ បោកគក់",
+    "mapLatLong": "11.19546966788422, 105.23945121908653"
+  },
+  {
+    "Id": "28:2D:06:0E:A3:B6",
+    "name": "Youpin Farm (Cambodia) Food Co., Ltd.",
+    "address": null,
+    "district": "Ruk kiri",
+    "location": "ស្រុករុក្ខគិរី ខេត្តបាត់ដំបង",
+    "business": "ដំណាប់ស្វាយ",
+    "mapLatLong": "N/A"
+  },
+  {
+    "Id": "94:A9:90:1E:55:6C",
+    "name": "Peng Da Garment (Cambodia) Co., Ltd.",
+    "address": null,
+    "location": "ក្រុងតាខ្មៅ ខេត្តកណ្តាល",
+    "business": "បោកគក់",
+    "mapLatLong": "11.444116978339528, 105.04205253920928"
+  },
+  {
+    "Id": null,
+    "name": "Cambodia energy limited",
+    "address": null,
+    "district": null,
+    "location": null,
+    "business": null,
+    "mapLatLong": null
+  },
+  {
+    "Id": "23hda",
+    "name": "Cambodia 1 energy limited",
+    "address": null,
+    "district": null,
+    "location": null,
+    "business": null,
+    "mapLatLong": null
+  }
+]

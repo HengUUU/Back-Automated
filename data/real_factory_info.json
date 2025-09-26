@@ -1,5 +1,14 @@
 [
   {
+    "Id": "E4:65:B8:29:76:58",
+    "name": "Manhattan SEZ",
+    "address": "Manhattan Special Economic Zone, Bavet Commune, Bavet City, Svay Rieng Province, Cambodia",
+    "district": "Bavet",
+    "location": "ស្រុកបាវិត ខេត្តស្វាយរៀង",
+    "business": "តំបន់សេដ្ឋកិច្ចពិសេស",
+    "mapLatLong": "11.058297012135611, 106.11649171482571"
+  },
+  {
     "Id": "E4:65:B8:2A:56:28",
     "name": "Phoenix Industrial Co., Ltd.",
     "address": "PCHEAV VILLAGE, TRENG COMMUNE, RATANAK MONDUL DISTRICT, BATTAMBANG PROVINCE.",
@@ -30,8 +39,8 @@
     "Id": "E4:65:B8:2A:5B:FC",
     "name": "KHMER BEVERAGES",
     "address": "Street 217, Phum Cheung Ek, Sangkat Cheung Ek, Khan Dangkor, Phnom Penh, Cambodia 12415, KH.",
-    "district": "toul songkea",
-    "location": "pp",
+    "district": "Chamkarmon",
+    "location": "ខណ្ឌដង្កោ រាជធានីភ្នំពេញ",
     "business": "បោកគក់ជ្រលក់ពណ៌",
     "mapLatLong": "11.491519868749261, 104.89652475747641"
   },
@@ -216,10 +225,10 @@
     "mapLatLong": "12.556864,104.886613"
   },
   {
-    "Id": "12",
+    "Id": "94:A9:90:07:8D:E4",
     "name": "RMKH Glove (Cambodia) Co., Ltd.",
     "address": null,
-    "district": "Preak Sandek",
+    "district": "Bavet",
     "location": "ស្រុកបាវិត ខេត្តស្វាយរៀង",
     "business": "ផលិតស្រោមដៃ",
     "mapLatLong": "11.050091067553563, 106.1272484997783"
@@ -384,56 +393,38 @@
   },
   {
     "Id": null,
-    "name": "Cambodia energy limited",
-    "address": null,
-    "district": null,
-    "location": null,
-    "business": null,
-    "mapLatLong": null
-  },
-  {
-    "Id": "23hda",
-    "name": "Cambodia 1 energy limited",
-    "address": null,
-    "district": null,
-    "location": null,
-    "business": null,
-    "mapLatLong": null
-  },
-  {
-    "Id": "dafdasd",
     "name": "GLOBAL XILING GARMENT",
     "address": null,
     "district": null,
     "location": "ខណ្ឌកំបូល រាជធានីភ្នំពេញ",
-    "business": "ថាមពល",
+    "business": "កាត់ដេរ បោកគក់",
+    "mapLatLong": "11.458070825488592,104.78348167755186"
+  },
+  {
+    "Id": null,
+    "name": "HANUMAN BEVERAGES",
+    "address": null,
+    "district": null,
+    "location": "ស្រុកអង្គស្នួល ខេត្តកណ្តាល",
+    "business": "ស្រាបៀរ",
     "mapLatLong": null
   },
   {
-    "Id": "afdfsas",
-    "name": "kimsan",
-    "address": "asfdads",
-    "district": "",
-    "location": "",
-    "business": "drug dealer",
-    "mapLatLong": ""
+    "Id": null,
+    "name": "TROPICAL FRUIT ASIA",
+    "address": null,
+    "district": null,
+    "location": "ស្រុកអង្គស្នួល ខេត្តកណ្តាល",
+    "business": "ដំណាប់ស្វាយ",
+    "mapLatLong": "11.505007590249017,104.69666940374535"
   },
   {
     "Id": null,
-    "name": "Vanak Lonely",
+    "name": "Cambodian Energy Limited",
     "address": null,
     "district": null,
-    "location": "ផ្សារព្រែកសណ្តែក",
-    "business": "បោកគក់ជ្រលក់ពណ៌",
-    "mapLatLong": "445,445"
-  },
-  {
-    "Id": null,
-    "name": "San",
-    "address": null,
-    "district": null,
-    "location": null,
-    "business": "drug dealer",
-    "mapLatLong": "123,323"
+    "location": "ខេត្តព្រះសីហនុ",
+    "business": "ផលិតថាមពលអគ្គិសនី",
+    "mapLatLong": null
   }
 ]

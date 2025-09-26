@@ -85,14 +85,14 @@ async def get_reports():
 
                 station_ = get_factory_infor(i['deviceId'], station_data)
                 
-                score_wci = compute_wci(avg_param)
+                WCI_value = avg_param.get('WQI_avg_sample', None)
 
                 single_factory_rp = {
                     "avg_parame": avg_param,
                     "date": today_str,
                     "device_ids": i['deviceId'],
                     "station_info": station_,
-                    "WCI": score_wci
+                    "WCI": WCI_value
                 }
                 all_reports.append(single_factory_rp)
                 print(num)

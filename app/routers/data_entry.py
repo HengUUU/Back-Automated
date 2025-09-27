@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from app.services.read_data_sensor import RequestSensor
 from dotenv import load_dotenv
-from app.services.sensor_service import calculate_average_metrics
+from app.services.sensor_service import calculate_average_metrics, calculate_ccme_wqi
 from app.services.read_data_factory import nested_data_factory ,get_factory_infor
 from typing import List, Dict, Any
 from app.services.token_service import check_valid_token
@@ -9,6 +9,7 @@ from datetime import date
 from token_store import get_token, set_token
 import asyncio
 from app.services.WCI import compute_wci 
+import pandas as pd
 
 
 # Create a global lock
@@ -86,6 +87,81 @@ async def get_reports():
                 station_ = get_factory_infor(i['deviceId'], station_data)
                 
                 WCI_value = avg_param.get('WQI_avg_sample', None)
+
+                single_factory_rp = {
+                    "avg_parame": avg_param,
+                    "date": today_str,
+                    "device_ids": i['deviceId'],
+                    "station_info": station_,
+                    "WCI": WCI_value
+                }
+                all_reports.append(single_factory_rp)
+                print(num)
+
+        cached_report = {"data": all_reports, "total_factories": len(all_reports)}
+        return cached_report
+
+
+
+@router.get("/report-wci")
+async def get_reports():
+    global cached_report
+
+    token = get_token()
+    if not token:
+        return {"status": "error", "message": "No token stored"}
+
+    result = check_valid_token(token)
+    if result["status"] != "success":
+        return result
+
+    # Use lock to prevent multiple requests from running the same process
+    async with report_lock:
+        if cached_report:
+            return cached_report
+
+        all_reports: List[Dict[str, Any]] = []
+        station_data = nested_data_factory(result["data"])
+        sensor_data = RequestSensor(token)
+        today_str = date.today()
+        num = 0
+
+        for ind in station_data:
+            for i in ind['factory']:
+                num += 1
+                fc_dt = sensor_data._read_and_process_data(i['deviceId'])
+                station_ = get_factory_infor(i['deviceId'], station_data)
+
+                if fc_dt.empty:
+                    print(f"No data for device {i['deviceId']}")
+                    avg_param = {
+                        "ph": None,
+                        "cod": None,
+                        "ss": None,
+                        "WQI_CCME": None
+                    }
+                    WCI_value = None
+                else:
+                    # Convert to datetime
+                    fc_dt['monitorDate'] = pd.to_datetime(fc_dt['monitorDate'])
+
+                    # Group by hourly averages
+                    numeric_cols = ['ph', 'cod', 'ss']
+                    df_hourly = (
+                        fc_dt.groupby(pd.Grouper(key='monitorDate', freq='H'))[numeric_cols]
+                            .mean()
+                            .reset_index()
+                    )
+
+                    # Define Canadian guidelines
+                    guidelines = {
+                        "ph_min": 5.5, "ph_max": 9.0,
+                        "cod": 120,
+                        "ss": 100
+                    }
+
+                    avg_param = calculate_ccme_wqi(df_hourly, guidelines)
+                    WCI_value = avg_param.get('WQI_CCME', 0)
 
                 single_factory_rp = {
                     "avg_parame": avg_param,

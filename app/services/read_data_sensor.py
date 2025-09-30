@@ -61,11 +61,11 @@ class RequestSensor:
                 df_clean = df_clean[(df_clean['ph'] >= 0) & (df_clean['ph'] <= 14)]
 
             if 'cod' in df_clean.columns:
-                df_clean = df_clean[df_clean['cod'] > 0]
+                df_clean = df_clean[df_clean['cod'] >= 0]
 
             # Assuming the column name for suspended solids is 'SS' or 'TSS'
             if 'ss' in df_clean.columns:
-                df_clean = df_clean[df_clean['ss'] > 0]
+                df_clean = df_clean[df_clean['ss'] >= 0]
             
             return df_clean.reset_index(drop=True)
 
@@ -78,16 +78,13 @@ class RequestSensor:
 
             today = date.today()
 
-            # Yesterday’s date
-            # yesterday = today - timedelta(days=1)
+            # Start of today (00:00:00) in UTC
+            from_date = datetime.combine(today, datetime.min.time()).replace(tzinfo=timezone.utc)
 
-            # Start of yesterday (00:00:00)
-            from_date = datetime.combine(today, datetime.min.time())
+            # End of today (23:59:59) in UTC
+            to_date = datetime.combine(today, datetime.max.time()).replace(microsecond=0, tzinfo=timezone.utc)
 
-            # End of yesterday (23:59:59)
-            to_date = datetime.combine(today, datetime.max.time()).replace(microsecond=0)
-
-            # Convert to ISO 8601 with milliseconds as .000Z
+            # Convert to ISO 8601 with .000Z suffix
             from_date_str = from_date.strftime("%Y-%m-%dT%H:%M:%S.000Z")
             to_date_str = to_date.strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
@@ -122,10 +119,11 @@ class RequestSensor:
             if "data" in data and isinstance(data["data"], list):
                 df = pd.DataFrame(data["data"])
                 df['monitorDate'] = pd.to_datetime(df['monitorDate'])
-
                 df = df[df['monitorDate'].dt.date == today]
                 
+                # print("Before outlier removal:", df.shape)  
                 df = self._remove_outliers_iqr(df, columns=["ph", "cod", "ss"])
+                # print("After outlier removal:", df.shape)
 
                 return df
             else:

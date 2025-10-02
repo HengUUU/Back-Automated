@@ -44,7 +44,7 @@ class RequestSensor:
         self.token = token
 
     
-    def _remove_outliers_iqr(self, df: pd.DataFrame, columns=None) -> pd.DataFrame:
+    def _remove_outliers(self, df: pd.DataFrame, columns=None) -> pd.DataFrame:
             """
             Removes outliers from the dataframe using the IQR method.
             """
@@ -122,7 +122,7 @@ class RequestSensor:
                 df = df[df['monitorDate'].dt.date == today]
                 
                 # print("Before outlier removal:", df.shape)  
-                df = self._remove_outliers_iqr(df, columns=["ph", "cod", "ss"])
+                df = self._remove_outliers(df, columns=["ph", "cod", "ss"])
                 # print("After outlier removal:", df.shape)
 
                 return df

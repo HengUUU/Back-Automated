@@ -50,17 +50,6 @@ def calculate_average_metrics(df: pd.DataFrame) -> Dict[str, Any]:
     return avg_metrics
 
 def calculate_ccme_wqi(df: pd.DataFrame, guidelines: Dict[str, float]) -> Dict[str, Any]:
-    """
-    Calculates CCME WQI for factory data safely.
-    
-    Parameters:
-        df : DataFrame with columns ['monitorDate', 'ph', 'cod', 'ss', ...]
-        guidelines : dict with regulatory limits, e.g.
-                     {"ph_min": 6.5, "ph_max": 8.5, "cod": 100, "ss": 50}
-    
-    Returns:
-        Dictionary with average parameters and CCME WQI (clamped 0-100)
-    """
     parameters = ['ph', 'cod', 'ss']
     
     if df.empty:

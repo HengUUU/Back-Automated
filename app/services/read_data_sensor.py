@@ -61,12 +61,12 @@ class RequestSensor:
                 df_clean = df_clean[(df_clean['ph'] >= 0) & (df_clean['ph'] <= 14)]
 
             if 'cod' in df_clean.columns:
-                df_clean = df_clean[df_clean['cod'] >= 0]
+                df_clean = df_clean[(df_clean['cod'] >= 0) & (df_clean['cod'] <= 1000)]  # 0-1000 mg/L
 
             # Assuming the column name for suspended solids is 'SS' or 'TSS'
             if 'ss' in df_clean.columns:
-                df_clean = df_clean[df_clean['ss'] >= 0]
-            
+                df_clean = df_clean[(df_clean['ss'] >= 0) & (df_clean['ss'] <= 1000)]  # 0-1000 mg/L
+                    
             return df_clean.reset_index(drop=True)
 
 

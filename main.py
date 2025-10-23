@@ -1,26 +1,26 @@
 from fastapi import FastAPI
 import uvicorn
 from pydantic  import BaseModel
-
+import os
 from fastapi.middleware.cors import CORSMiddleware
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 api = FastAPI(title="Automated Poster")
 
+front_url = os.getenv("FRONTEND_URL")
 
 
 api.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    # allow_origins=[
-    #     "http://localhost:3000",
-    #     "http://frontend:3000",
-    #     "https://65j8kfdv-3000.asse.devtunnels.ms",
-    #     "http://127.0.0.1:3000"
-    #                ],  
+    allow_origins=[front_url],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 
 from app.routers.data_entry import router
@@ -29,9 +29,6 @@ api.include_router(router)
 api.include_router(router_factories)
 
 
-@api.get('/')
-def index():
-    return {'message':'Hello my fbro'}
 
 
 

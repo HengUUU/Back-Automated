@@ -45,6 +45,3 @@ def check_valid_token(token: str) -> dict:
         return {"status": "error", "message": f"Request failed: {str(e)}"}
     
     
-def check_login(str):
-    if str == "123":
-        return {"status":"success", "data":"fuckyou"}

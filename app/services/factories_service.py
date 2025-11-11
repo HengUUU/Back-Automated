@@ -2,7 +2,10 @@ import json
 from pathlib import Path
 from app.models.factories_info_model import Factory
 
-FACTORY_FILE = Path(__file__).parent.parent / "/app/app/data" / "real_factory_info.json"
+
+BASE_DIR = Path(__file__).parent.parent
+
+FACTORY_FILE = BASE_DIR / "data" / "real_factory_info.json"
 print(FACTORY_FILE.resolve())
 print("Exists?", FACTORY_FILE.exists())
 
